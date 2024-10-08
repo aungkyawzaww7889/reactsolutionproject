@@ -1,10 +1,14 @@
 import React from 'react'
+import Container from './Container'
 
 const Header = () => {
   return (
-    <div>
-      Header
-    </div>
+    <header className='mb-3'>
+     <Container>
+      <h1 className='text-3xl font-bold'>Voucher App</h1>
+      <p className='text-stone-500'>MMS Software</p>
+     </Container>
+    </header>
   )
 }
 

@@ -1,10 +1,14 @@
 import React from 'react'
+import Container from '../components/Container'
+import Breadcrumb from '../components/Breadcrumb'
 
 const SalePage = () => {
   return (
-    <div>
-      sale
-    </div>
+    <section>
+      <Container>
+          <Breadcrumb currentPageTitle={"Sale Module"}/>
+      </Container>
+    </section>
   )
 }
 

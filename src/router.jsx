@@ -6,6 +6,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import SalePage from "./pages/SalePage";
 import VoucherPage from "./pages/VoucherPage";
 import { createBrowserRouter } from "react-router-dom";
+import VoucherDetailPage from "./pages/VoucherDetailPage.jsx";
 
 const router = createBrowserRouter(
     [
@@ -16,7 +17,7 @@ const router = createBrowserRouter(
             children : [
                 {   
                     index:true,
-                    path:"/dashboard",
+                    path:"/",
                     element: <DashboardPage/>
                 },
                 {
